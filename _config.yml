@@ -1,0 +1,21 @@
+# Site settings
+title: From Chasing Geese to Writing Code
+header-img: img/home-bg.png
+email: knoxcaleb@aol.com
+copyright_name: CalebKnox
+description: > # this means to ignore newlines until "baseurl:"
+  A journey through my learning of web development, one post at a time
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  CalebKnox
+learn_profile: CalebKnox
+email_username: knoxcaleb@aol.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
